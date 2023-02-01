@@ -3,7 +3,8 @@
 ![badge:version](https://img.shields.io/badge/version-1.0.3-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-A ChatGPT bot for Telegram based on Node.js. Works with Cloudflare protection.
+A ChatGPT bot for Telegram based on Node.js. Works with Cloudflare protection. <br/>
+WARNING: Breaking changes! This fork doesn't work with browser env. It uses new API that is provided in 4 version of @transitive-bullshit/chatgpt-api
 
 ## Features
 
