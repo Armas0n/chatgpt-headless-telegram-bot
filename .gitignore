@@ -54,6 +54,9 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+# WebStorm settings data
+.idea
+
 # Optional stylelint cache
 .stylelintcache
 
