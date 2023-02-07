@@ -6,7 +6,7 @@ specifiers:
   '@types/node-telegram-bot-api': ^0.57.6
   '@typescript-eslint/eslint-plugin': ^5.50.0
   '@typescript-eslint/parser': ^5.50.0
-  chatgpt: ^4.0.2
+  chatgpt: ^4.1.1
   dotenv: ^16.0.3
   eslint: ^8.33.0
   eslint-config-prettier: ^8.6.0
@@ -20,7 +20,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
-  chatgpt: 4.0.2
+  chatgpt: 4.1.1
   dotenv: registry.npmmirror.com/dotenv/16.0.3
   lodash: registry.npmmirror.com/lodash/4.17.21
   node-telegram-bot-api: 0.61.0
@@ -455,8 +455,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /chatgpt/4.0.2:
-    resolution: {integrity: sha512-CBPiTDRA9NOWqoBnIJ6QfXfU08yNepbIxYKQ033jWvkjYETTfStwLnZtK/kpcRNdJ5Wow6eUu2XVr/wX64CAsQ==}
+  /chatgpt/4.1.1:
+    resolution: {integrity: sha512-2Hn9kjSSndvmLiRLYK1xHXxf436xwby3vmLBlLayxFFErQHW2+47zjGlaanhrFzb89MfWsf+1GPwl/qKklDUeA==}
     engines: {node: '>=18'}
     dependencies:
       eventsource-parser: 0.0.5

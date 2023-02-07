@@ -100,6 +100,22 @@ async function main() {
     }
 
     switch (command) {
+      case '/start': {
+        await bot.sendMessage(
+          msg.chat.id,
+          'Hi! \n' +
+            'To chat with me, you can:\n' +
+            '  • send messages directly (not supported in groups)\n' +
+            `  • send messages that start with ${chatCmd}\n` +
+            '  • reply to my last message\n\n' +
+            'Command list:\n' +
+            `(When using a command in a group, make sure to include a mention after the command, like /help@${botUsername}).\n` +
+            '  • /help Show help information.\n' +
+            '  • /reset Reset the current chat thread and start a new one. \n' +
+            'Made by Armason 😎'
+        );
+        break;
+      }
       case '/help': {
         await bot.sendMessage(
           msg.chat.id,
@@ -189,7 +205,6 @@ async function main() {
         return msg;
       }
     } catch (err) {
-      logWithTime('⛔️ Edit message error:', (err as Error).message);
       return msg;
     }
   }
